@@ -1,0 +1,39 @@
+<html lang="pt-br">
+    <head>
+        <title>
+            A
+        </title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="/css/master.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    </head>
+    <body>
+        <header>
+            <a href="#" class="logo">
+                logo
+            </a>
+            <div class="menu"></div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Contato</a></li>
+                    <li><a href="#">Docs</a></li>
+                    <li><a href="#">Sign In</a></li>
+                </ul>
+            </nav>
+            <div class="clear-fix"></div>
+        </header>
+        <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+        <script>
+            $(document).ready(function(){
+                $('.menu').click(function(){
+                    $('.menu').toggleClass('active')
+                    $('nav').toggleClass('active')
+                })
+            })
+        </script>
+    </body>
+</html>
