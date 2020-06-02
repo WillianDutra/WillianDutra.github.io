@@ -53,7 +53,7 @@ nav ul li a{
     font-weight: 700px;
 }
 nav ul li a.active, nav ul li a:hover{
-    background-color: rgba(255, 0, 0, 0.3);
+    background-color: rgba(130, 88, 159, 0.3);
     transition: 0.8s;
 }
 @media (max-width: 1200px){
